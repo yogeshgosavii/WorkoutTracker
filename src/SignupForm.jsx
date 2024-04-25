@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 import Button from './components/buttonComponents/Button'
 function SignupForm() {
   return (
-    <div className='p-5 flex h-screen flex-col text-gray-900'>
+    <div className='p-5 flex h-dvh flex-col text-gray-900'>
       <h1 className='text-2xl font-bold mt-5'>Create an account</h1>
       <div className='mt-10 flex justify-between flex-col flex-1'>
         <div className='space-y-5'>
@@ -36,7 +36,7 @@ function SignupForm() {
 
           </div>
         </div>
-        <Button>Create an account</Button>
+        <Button className={"mt-10"}>Create an account</Button>
         
         
       </div>
@@ -56,7 +56,7 @@ function SignupForm() {
             </div>
           </div>
         </div>
-        <p className='mt-8'>Don't have an account ? <Link to={"/login"} className='text-[#89A1FF] cursor-pointer'>Create an account</Link></p>
+        <p className='mt-8 mb-5'>Don't have an account ? <Link to={"/login"} className='text-[#89A1FF] cursor-pointer'>Create an account</Link></p>
       </div>
     </div>
   )

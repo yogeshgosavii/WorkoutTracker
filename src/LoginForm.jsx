@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 function LoginForm() {
   return (
-    <div className='p-5 flex h-screen flex-col'>
+    <div className='p-5  flex max-h-dvh flex-col'>
       <h1 className='text-2xl font-bold mt-5'>Welcome Back</h1>
       <div className='mt-10 flex justify-between flex-col flex-1'>
         <div className='space-y-5'>
@@ -16,7 +16,7 @@ function LoginForm() {
           <PasswordInput placeHolder={"Password"}/>
           <p className=' cursor-pointer hover:text-[#89A1FF] underline text-gray-400'>Forget your password?</p>
         </div>
-        <Button>Sign In</Button>
+        <Button className={"mt-5"}> Sign In</Button>
         
         
       </div>
@@ -36,7 +36,7 @@ function LoginForm() {
             </div>
           </div>
         </div>
-        <p className='mt-8'>Don't have an account ? <Link to={"/signup"} className='text-[#89A1FF]'>Create an account</Link></p>
+        <p className='mt-8 mb-5 '>Don't have an account ? <Link to={"/signup"} className='text-[#89A1FF]'>Create an account</Link></p>
       </div>
     </div>
   )
