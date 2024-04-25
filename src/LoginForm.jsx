@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 function LoginForm() {
   return (
-    <div className='p-5  flex max-h-dvh flex-col'>
+    <div className='p-5  flex h-dvh flex-col'>
       <h1 className='text-2xl font-bold mt-5'>Welcome Back</h1>
       <div className='mt-10 flex justify-between flex-col flex-1'>
         <div className='space-y-5'>
