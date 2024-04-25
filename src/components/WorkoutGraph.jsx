@@ -14,7 +14,6 @@ const WorkoutGraph = ({ caloriesData }) => {
           label: 'Calories Burned', 
           data: caloriesData, 
           backgroundColor: '#89A1FF',
-          borderColor: 'rgb(75, 192, 192)',
           borderWidth: 1
         }]
       },
