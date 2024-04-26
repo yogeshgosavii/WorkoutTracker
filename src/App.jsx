@@ -39,7 +39,7 @@ function App() {
             <circle className="stroke-current text-[#89A1FF]" cx="50%" cy="50%" r="38%" strokeWidth="2.5%" fill="transparent"
               strokeDasharray={`${circumference}`} strokeDashoffset={offset}></circle>
           </svg>
-          <button onClick={handleStartClick} className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border bg-gradient-to-r p-3 rounded-full from-white to-[#89A1FF]'>
+          <button onClick={handleStartClick} className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r p-3 rounded-full from-white to-[#89A1FF]'>
             <svg className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
             </svg>

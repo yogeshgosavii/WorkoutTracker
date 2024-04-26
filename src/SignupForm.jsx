@@ -56,7 +56,7 @@ function SignupForm() {
             </div>
           </div>
         </div>
-        <p className='mt-8 mb-5'>Don't have an account ? <Link to={"/login"} className='text-[#89A1FF] cursor-pointer'>Create an account</Link></p>
+        <p className='mt-8 mb-5'>Already have an account ? <Link to={"/login"} className='text-[#89A1FF] cursor-pointer'>Login</Link></p>
       </div>
     </div>
   )
