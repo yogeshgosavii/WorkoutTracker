@@ -36,7 +36,7 @@ function LoginForm() {
             </div>
           </div>
         </div>
-        <p className='mt-8'>Don't have an account ? <Link to={"/signup"} className='text-[#89A1FF]'>Create an account</Link></p>
+        <p className='mt-8 lg:mb-5'>Don't have an account ? <Link to={"/signup"} className='text-[#89A1FF]'>Create an account</Link></p>
       </div>
     </div>
   )
