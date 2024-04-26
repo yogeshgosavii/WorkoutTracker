@@ -14,7 +14,7 @@ function LoginForm() {
         <div className='space-y-5'>
           <Input className={"w-full"} placeHolder={"Email"}/>
           <PasswordInput placeHolder={"Password"}/>
-          <p className=' cursor-pointer hover:text-[#89A1FF] underline text-gray-400'>Forget your password?</p>
+          <p className=' cursor-pointer mt hover:text-[#89A1FF] underline text-gray-400'>Forget your password?</p>
         </div>
         <Button className={"mt-5"}> Sign In</Button>
         
@@ -36,7 +36,7 @@ function LoginForm() {
             </div>
           </div>
         </div>
-        <p className='mt-8 mb-5 '>Don't have an account ? <Link to={"/signup"} className='text-[#89A1FF]'>Create an account</Link></p>
+        <p className='mt-8'>Don't have an account ? <Link to={"/signup"} className='text-[#89A1FF]'>Create an account</Link></p>
       </div>
     </div>
   )

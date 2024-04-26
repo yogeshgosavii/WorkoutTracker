@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 import { useNavigate } from 'react-router-dom';
-
 import TrackGoal from './startComponent/TrackGoal';
 import GetBurn from './startComponent/GetBurn';
 import { Link } from 'react-router-dom';
