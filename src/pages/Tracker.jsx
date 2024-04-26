@@ -59,10 +59,10 @@ function Tracker() {
                             return(
                                 <div className='flex justify-between gap-5 p-5 rounded-xl'
                                     style={{ boxShadow: '0 0 24px 0 rgba(0, 0, 0, 0.2)' }}>
-                                    <div className='flex gap-5'>
+                                    <div className='flex gap-5 justify-center items-center'>
                                         <img className='h-16' src={workout.workoutImage}/>
-                                        <div className='mt-1 space-y-1.5'>
-                                            <p className='font-semibold'>{workout.workoutName}</p>
+                                        <div className='mt-1 space-y-2 '>
+                                            <p className='font-semibold truncate max-w-[140px]'>{workout.workoutName}</p>
                                             <p className='text-gray-400 text-sm'>{workout.workoutTime}</p>
                                         </div>
 
