@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-      <div className='p-5 h-screen border flex flex-col'>
+      <div className='p-5 h-dvh flex flex-col'>
         <Link to={"/login"} className='flex justify-end text-[#9FB2FF] underline text-xl underline-offset-4'>Skip</Link>
         <div className=' flex-1 flex justify-center items-center'>
           {startComponents[currentPage]}

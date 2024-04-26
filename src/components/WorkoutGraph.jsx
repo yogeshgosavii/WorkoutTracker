@@ -18,21 +18,6 @@ const WorkoutGraph = ({ caloriesData }) => {
         }]
       },
       options: {
-        scales: {
-          y: {
-            beginAtZero: true,
-            title: {
-              display: true,
-              text: 'Calories'
-            }
-          },
-          x: {
-            title: {
-              display: true,
-              text: 'Time'
-            }
-          }
-        },
         plugins: {
           legend: {
             display: true,

@@ -9,6 +9,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Goals from './pages/Goals.jsx';
 import Tracker from './pages/Tracker.jsx';
 import Schedule from './pages/Schedule.jsx';
+import AddWorkouts from './pages/AddWorkouts.jsx';
 
 const router = createBrowserRouter([
 
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
     {
       path: "/schedule",
       element: <Schedule />,
+    },
+    {
+      path: "/add-workout",
+      element: <AddWorkouts />,
     },
  
 ]);

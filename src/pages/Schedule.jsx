@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import BottomNav from '../components/BottomNav';
+import { Link } from 'react-router-dom';
 
 function Schedule() {
   const [currentDate, setCurrentDate] = useState("Feb 2024");
@@ -59,9 +60,9 @@ function Schedule() {
   return (
     <div className='p-5 text-gray-900 font-sans'>
         <div className='fixed  flex flex-col bg-white py-5 top-0 left-5 right-5'>
-         <div className='flex  justify-center items-center w-full'>
+         <div className='flex  justify-center  w-full'>
             <svg class="h-8 w-8  text-gray-900 bg-gray-200 rounded-md p-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" /> <polyline points="15 6 9 12 15 18" /></svg>
-            <h1 className='text-2xl font-bold. flex flex-col gap-5 w-full text-center'>Workout Schedule</h1>
+            <h1 className='text-2xl font-bold flex flex-col gap-5 w-full text-center'>Workout Schedule</h1>
         </div>
         <div className='flex gap-2 items-center justify-center mt-3'>
             <svg class="h-8 w-8  text-gray-900 " width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" /> <polyline points="15 6 9 12 15 18" /></svg>
@@ -109,6 +110,9 @@ function Schedule() {
             })}
           </div>
         ))}
+         <Link to={"/add-workout"}  className='fixed  cursor-pointer right-10 bottom-36 border bg-gradient-to-r p-5 rounded-full from-[#E9B1E0] to-[#D3A5F2]'>
+            <svg class="h-8 w-8 text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="12" y1="5" x2="12" y2="19" />  <line x1="5" y1="12" x2="19" y2="12" /></svg>
+          </Link>
       </div>
       <BottomNav />
     </div>
