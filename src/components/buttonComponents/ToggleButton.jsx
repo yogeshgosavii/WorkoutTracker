@@ -9,7 +9,7 @@ function ToggleButton({initialCheck}) {
   
     return (
       <>
-        <label className='autoSaverSwitch relative inline-flex cursor-pointer select-none items-center'>
+        <label className='autoSaverSwitch  relative inline-flex cursor-pointer select-none items-center'>
           <input
             type='checkbox'
             name='autoSaver'
@@ -18,7 +18,7 @@ function ToggleButton({initialCheck}) {
             onChange={handleCheckboxChange}
           />
           <span
-            className={`slider mr-3 flex h-[26px] w-[50px] items-center rounded-full p-1 duration-200 ${
+            className={`slider  flex h-[26px] w-[50px] items-center rounded-full p-1 duration-200 ${
               isChecked ? 'bg-[#89A1FF]' : 'bg-[#CCCCCE]'
             }`}
           >

@@ -56,7 +56,7 @@ function Tracker() {
                 {
                     upcomingWorkouts.map((workout)=>{
                         return(
-                            <div className='flex justify-between p-5 rounded-xl'
+                            <div className='flex justify-between gap-5 p-5 rounded-xl'
                                 style={{ boxShadow: '0 0 24px 0 rgba(0, 0, 0, 0.2)' }}>
                                 <div className='flex gap-5'>
                                     <img className='h-16' src={workout.workoutImage}/>
